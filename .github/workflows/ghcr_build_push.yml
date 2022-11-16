@@ -22,7 +22,7 @@ jobs:
         name: Build & push Docker image
         with:
           image: shir
-          tags: v1, latest
+          tags: latest
           registry: ${{ env.REGISTRY }}
           dockerfile: Dockerfile
           username: ${{ github.actor }}
